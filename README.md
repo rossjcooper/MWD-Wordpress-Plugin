@@ -2,7 +2,7 @@
 
 A starter plugin with all the boilerplate done for Vuejs and some useful PHP libraries.
 
-##Features
+## Features
 * Full build process for single file `.vue` components setup ready to go.
 * Full build process for `scss` files and within Vue components.
 * Sourcemapping for `.scss` and soon for `.js/.vue` files.
