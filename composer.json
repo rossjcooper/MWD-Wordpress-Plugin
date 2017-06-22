@@ -1,0 +1,25 @@
+{
+  "name": "rossjcooper/mwdplugin",
+  "description": "A starter plugin with all the boilerplate done for Vuejs and some useful PHP libraries.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ross Cooper",
+      "email": "therossjcooper@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": "^5.4",
+    "illuminate/events": "^5.4",
+    "symfony/http-foundation": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "MWDPlugin\\": "app/"
+    },
+    "files": [
+      "eloquent.php",
+      "api.php"
+    ]
+  }
+}
